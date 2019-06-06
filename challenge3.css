@@ -1,0 +1,14 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 25px;
+    transform: translate(100px);
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    
+}
+
+.box:hover {
+    transform: translate(200px);
+}

@@ -1,0 +1,21 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 25px;
+    animation-name: spin;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+}
+
+@keyframes spin {
+    from {
+       transform: rotate(0deg);
+    }
+    
+    to {
+        transform: rotate(360deg);
+    }
+}
+
